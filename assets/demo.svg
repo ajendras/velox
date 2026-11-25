@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-label="Velox — demo">
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;font-size:15px}
+    .l{opacity:0}
+    .ty{clip-path:inset(0 100% 0 0)}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes show{to{opacity:1}}
+    @keyframes type{to{clip-path:inset(0 0 0 0)}}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.l{opacity:1;animation:none!important}.ty{clip-path:none;animation:none!important}}
+  </style>
+  <rect width="900" height="520" rx="14" fill="#0d1117"/>
+  <rect x=".5" y=".5" width="899" height="520" rx="14" fill="none" stroke="#30363d"/>
+  <rect width="900" height="40" rx="14" fill="#161b22"/><rect y="26" width="900" height="14" fill="#161b22"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/><circle cx="44" cy="20" r="6" fill="#febc2e"/><circle cx="64" cy="20" r="6" fill="#28c840"/>
+  <text x="450" y="25" text-anchor="middle" fill="#8b949e" style="font-size:13px">Velox — demo</text>
+<text x="28" y="74" class="l" style="animation:show .01s 0.60s forwards"><tspan fill="#f1faee">❯</tspan></text><text x="50" y="74" class="l ty" style="animation:show .01s 0.60s forwards,type 0.45s steps(10) 0.60s forwards" fill="#e5e7eb">velox init</text>
+<text x="50" y="100" class="l" style="animation:show .01s 1.35s forwards" fill="#94a3b8">Created velox.toml</text>
+<text x="50" y="126" class="l" style="animation:show .01s 1.57s forwards" fill="#94a3b8">Set game_dir and cache_dir to continue</text>
+<text x="28" y="178" class="l" style="animation:show .01s 2.14s forwards"><tspan fill="#f1faee">❯</tspan></text><text x="50" y="178" class="l ty" style="animation:show .01s 2.14s forwards,type 1.22s steps(27) 2.14s forwards" fill="#e5e7eb">velox translate shaders.rpf</text>
+<text x="50" y="204" class="l" style="animation:show .01s 3.66s forwards" fill="#94a3b8">Translated 8765 mesh + 12592 vertex/pixel shaders</text>
+<text x="50" y="230" class="l" style="animation:show .01s 3.88s forwards" fill="#94a3b8">Cache written to ~/.velox/cache (214 MB)</text>
+<text x="28" y="282" class="l" style="animation:show .01s 4.45s forwards"><tspan fill="#f1faee">❯</tspan></text><text x="50" y="282" class="l ty" style="animation:show .01s 4.45s forwards,type 0.81s steps(18) 4.45s forwards" fill="#e5e7eb">velox run game.exe</text>
+<text x="50" y="308" class="l" style="animation:show .01s 5.56s forwards" fill="#94a3b8">Loaded executable and 14 DLLs</text>
+<text x="50" y="334" class="l" style="animation:show .01s 5.78s forwards" fill="#94a3b8">HTTP API listening on http://127.0.0.1:8080</text>
+<text x="50" y="360" class="l" style="animation:show .01s 6.00s forwards" fill="#94a3b8">World rendered at 47 fps (sandbox active)</text>
+<text x="28" y="412" class="l" style="animation:show .01s 6.57s forwards"><tspan fill="#f1faee">❯</tspan></text><text x="50" y="412" class="l ty" style="animation:show .01s 6.57s forwards,type 1.49s steps(33) 6.57s forwards" fill="#e5e7eb">curl http://127.0.0.1:8080/status</text>
+<text x="50" y="438" class="l" style="animation:show .01s 8.36s forwards" fill="#94a3b8">{&quot;fps&quot;:47,&quot;memory_mb&quot;:3421,&quot;phase&quot;:&quot;world&quot;,&quot;plugins&quot;:[&quot;hdr_fix&quot;]}</text>
+<g class="l" style="animation:show .01s 8.93s forwards"><text x="28" y="490" fill="#f1faee">❯</text><rect class="cur" x="50" y="475" width="10" height="18" fill="#e5e7eb"/></g>
+</svg>
